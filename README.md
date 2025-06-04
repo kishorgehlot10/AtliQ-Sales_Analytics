@@ -42,7 +42,7 @@ The analysis is based on the following core tables:
 | 05 | 📆 Fiscal Yearly Gross Sales Report of Croma India                                 | [🔎 Click Here](https://github.com/kishorgehlot10/AtliQ-Sales_Analytics/blob/main/Fiscal%20yearly%20%20Gross%20Sales%20%20Report%20of%20Croma%20India.sql) |
 | 06 | 🎯 Forecast Accuracy of All Customers in Fiscal Year 2021                          | [🔎 Click Here](https://github.com/kishorgehlot10/AtliQ-Sales_Analytics/blob/main/Get%20forecast%20accuracy%20of%20all%20customer%20in%20fiscal%20year%202021..sql) |
 | 07 | 🛠️ Stored Procedure for Market Badge Assignment                                    | [🔎 Click Here](https://github.com/kishorgehlot10/AtliQ-Sales_Analytics/blob/main/Make%20Store%20Procedue%20for%20Market%20Badge.sql) |
-| 08 | 📦 Monthly Aggregated Product-Wise Sales Report (FY 2021)                          | [🔎 Click Here](queries/08_monthly_agg_product_sales.sql) |
+| 08 | 📦 Monthly Aggregated Product-Wise Sales Report (FY 2021)                          | [🔎 Click Here](https://github.com/kishorgehlot10/AtliQ-Sales_Analytics/blob/main/Monthly%20Aggregated%20Product%20Wise%20%20Sales%20Report%20of%20Fiscal%20Year%202021%20with%20Total%20Gross%20Price%20of%20Croma%20India.sql) |
 | 09 | 💰 Monthly Gross Sales Report of Croma India                                       | [🔎 Click Here](queries/09_monthly_gross_sales_report.sql) |
 | 10 | 🏆 Top 2 Markets in Every Region by Gross Sales (FY 2021)                          | [🔎 Click Here](queries/10_top2_market_per_region.sql) |
 | 11 | 🔝 Top 5 Market-Customer Product Performers                                         | [🔎 Click Here](queries/11_top5_market_customer_products.sql) |
