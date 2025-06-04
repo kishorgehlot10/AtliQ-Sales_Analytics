@@ -39,7 +39,7 @@ The analysis is based on the following core tables:
 | 02 | 📄 Create a View for Net Sales                                                     | [🔎 Click Here](https://github.com/kishorgehlot10/AtliQ-Sales_Analytics/blob/main/Create%20view%20for%20Net%20Sales..sql) |
 | 03 | 📉 Customers’ forecast accuracy dropped from 2020 to 2021                          | [🔎 Click Here](https://github.com/kishorgehlot10/AtliQ-Sales_Analytics/blob/main/Customers%E2%80%99%20forecast%20accuracy%20has%20dropped%20from%202020%20to%202021..sql) |
 | 04 | 🌍 Top 5 Markets using Common Table Expression (CTE)                               | [🔎 Click Here](https://github.com/kishorgehlot10/AtliQ-Sales_Analytics/blob/main/Find%20Top%205%20Market%20by%20using%20cte.sql) |
-| 05 | 📆 Fiscal Yearly Gross Sales Report of Croma India                                 | [🔎 Click Here](queries/05_fy_gross_sales_report.sql) |
+| 05 | 📆 Fiscal Yearly Gross Sales Report of Croma India                                 | [🔎 Click Here](https://github.com/kishorgehlot10/AtliQ-Sales_Analytics/blob/main/Fiscal%20yearly%20%20Gross%20Sales%20%20Report%20of%20Croma%20India.sql) |
 | 06 | 🎯 Forecast Accuracy of All Customers in Fiscal Year 2021                          | [🔎 Click Here](queries/06_fy2021_forecast_accuracy.sql) |
 | 07 | 🛠️ Stored Procedure for Market Badge Assignment                                    | [🔎 Click Here](queries/07_sp_market_badge.sql) |
 | 08 | 📦 Monthly Aggregated Product-Wise Sales Report (FY 2021)                          | [🔎 Click Here](queries/08_monthly_agg_product_sales.sql) |
