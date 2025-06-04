@@ -35,7 +35,7 @@ The analysis is based on the following core tables:
 
 | #  | Query Description                                                                  | Link to Query |
 |----|-------------------------------------------------------------------------------------|---------------|
-| 01 | ✅ Create `fact_act_est` table (Actual vs Estimated data)                          | [🔎 Click Here](queries/01_create_fact_act_est.sql) |
+| 01 | ✅ Create `fact_act_est` table (Actual vs Estimated data)                          | [🔎 Click Here]((https://github.com/kishorgehlot10/AtliQ-Sales_Analytics/blob/main/Create%20fact_act_est%20table.sql)) |
 | 02 | 📄 Create a View for Net Sales                                                     | [🔎 Click Here](queries/02_view_net_sales.sql) |
 | 03 | 📉 Customers’ forecast accuracy dropped from 2020 to 2021                          | [🔎 Click Here](queries/03_forecast_accuracy_drop.sql) |
 | 04 | 🌍 Top 5 Markets using Common Table Expression (CTE)                               | [🔎 Click Here](queries/04_top_5_market_cte.sql) |
