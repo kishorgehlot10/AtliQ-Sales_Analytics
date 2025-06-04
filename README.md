@@ -36,7 +36,7 @@ The analysis is based on the following core tables:
 | #  | Query Description                                                                  | Link to Query |
 |----|-------------------------------------------------------------------------------------|---------------|
 | 01 | ✅ Create `fact_act_est` table (Actual vs Estimated data)                          | [🔎 Click Here](https://github.com/kishorgehlot10/AtliQ-Sales_Analytics/blob/main/Create%20fact_act_est%20table.sql) |
-| 02 | 📄 Create a View for Net Sales                                                     | [🔎 Click Here](queries/02_view_net_sales.sql) |
+| 02 | 📄 Create a View for Net Sales                                                     | [🔎 Click Here](https://github.com/kishorgehlot10/AtliQ-Sales_Analytics/blob/main/Create%20view%20for%20Net%20Sales..sql) |
 | 03 | 📉 Customers’ forecast accuracy dropped from 2020 to 2021                          | [🔎 Click Here](queries/03_forecast_accuracy_drop.sql) |
 | 04 | 🌍 Top 5 Markets using Common Table Expression (CTE)                               | [🔎 Click Here](queries/04_top_5_market_cte.sql) |
 | 05 | 📆 Fiscal Yearly Gross Sales Report of Croma India                                 | [🔎 Click Here](queries/05_fy_gross_sales_report.sql) |
