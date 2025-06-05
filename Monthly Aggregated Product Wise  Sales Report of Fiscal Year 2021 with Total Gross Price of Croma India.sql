@@ -1,10 +1,10 @@
 -- Generate a report of individual product sales (aggregated monthly basis) for croma india customer for fiscal year 2021 
 -- Report should have Month,
-				   -- Product Name,
-                   -- Variant,
-				   -- Sold Qty,
-                   -- Gross Price per Item,
-			       -- Gross Price Total
+-- Product Name,
+-- Variant,
+-- Sold Qty,
+-- Gross Price per Item,
+-- Gross Price Total
 
 -- Step 1 Find Croma code 
 
