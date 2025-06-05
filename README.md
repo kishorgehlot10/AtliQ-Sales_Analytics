@@ -1,33 +1,79 @@
-# 🧠 AtliQ Technologies Sales Analysis using SQL
+# 🧠 Advanced SQL Sales Analysis Project – AtliQ Technologies
 
-Welcome to my advanced SQL project built using AtliQ Technologies' database. This project dives deep into business insights like sales trends, forecast accuracy, market performance, and more—powered by over **1.42 million records** across multiple tables!
-
-💼 AtliQ Technologies is a fictional B2B tech hardware company that sells products like PCs, storage devices, and accessories across global markets.
+This project demonstrates real-world SQL techniques to analyze sales, forecasting accuracy, and market performance using a large-scale database from AtliQ Technologies – a global hardware manufacturing company. The project is designed to provide actionable business insights using SQL queries, views, stored procedures, and common table expressions (CTEs).
 
 ---
 
-## 🗂️ Dataset Overview
+## 🏢 Company Overview
 
-The analysis is based on the following core tables:
+**AtliQ Technologies** is a multinational B2B hardware manufacturing company with a diverse product portfolio across multiple divisions:  
+- **Divisions**: PCs, Notebooks, Storage Devices, Peripherals & Accessories (P&A), Network & Security (N&S)  
+- **Product Categories**: Desktops, Keyboards, Mouse, Hard Disks, Notebooks, etc.
 
-| Table Name                | Description                                           |
-|---------------------------|-------------------------------------------------------|
-| `dim_customer`            | Customer details including market and region         |
-| `dim_product`             | Product master data                                  |
-| `fact_sales_monthly`     | Actual sales quantity and revenue by month           |
-| `fact_forecast_monthly`  | Forecasted demand for each product-customer combo    |
-| `fact_gross_price`       | Gross price per product                              |
-| `fact_pre_invoice_deduction` | Deductions applied before invoicing              |
+They operate on two major platforms:
+- **Brick & Mortar** stores
+- **E-commerce** platforms
+
+Their sales channels include:
+- **Direct** (AtliQ Exclusive Stores, AtliQ E-Store)
+- **Retail** (Croma, Amazon, Flipkart, and other resellers)
+
+They serve markets globally, including **India, the USA, Canada, and the UK**.
 
 ---
 
-## 📌 Project Objectives
+## 🧩 Problem Statement
 
-- Assess customer forecast accuracy
-- Analyze market-level performance using CTEs
-- Create stored procedures for business logic
-- Develop fiscal and monthly sales reports
-- Provide actionable KPIs for business strategy
+As AtliQ rapidly scales across multiple geographies and sales channels, they face challenges such as:
+- Inaccurate sales forecasts
+- Difficulty tracking net revenue performance across channels
+- Identifying top-performing customers, products, and regions
+
+The objective of this project is to build SQL-based solutions to improve visibility into:
+- Forecasting accuracy
+- Sales performance trends
+- Regional market dominance
+- Customer profitability
+
+---
+
+## 🗃️ Database Schema Overview
+
+The database used in this project contains over **1.42 million rows** and includes the following tables:
+
+| Table Name                  | Description                                        |
+|----------------------------|----------------------------------------------------|
+| `dim_customer`             | Customer-level details (market, region, type)      |
+| `dim_product`              | Product information (name, category, variant)      |
+| `fact_sales_monthly`       | Actual sales data (quantity, date, customer)       |
+| `fact_forecast_monthly`    | Monthly forecasted sales by customer & product     |
+| `fact_gross_price`         | Product pricing data (by fiscal year)              |
+| `fact_pre_invoice_deduction` | Discounts before invoicing                       |
+| `fact_post_invoice_deduction` | Discounts after invoicing                      |
+| `fact_act_est` *(derived)* | Merged actual vs forecast data for analysis        |
+
+---
+
+## 🎯 Analytical Objectives
+
+- Generate gross and net sales reports
+- Rank markets and customers by revenue
+- Measure and compare forecast accuracy across years
+- Identify top product and customer combinations
+- Classify markets using stored procedures (Gold/Silver)
+- Build reusable views and functions for business users
+
+---
+
+## 🛠️ SQL Techniques Used
+
+- ✅ Common Table Expressions (CTEs)
+- ✅ Window Functions (`RANK`, `SUM OVER`)
+- ✅ User-Defined Functions
+- ✅ Stored Procedures
+- ✅ Views for Net Sales pipeline
+- ✅ Aggregation and Grouping logic
+- ✅ Fiscal Year transformation
 
 ---
 
@@ -47,28 +93,32 @@ The analysis is based on the following core tables:
 | 10 | 🏆 Top 2 Markets in Every Region by Gross Sales (FY 2021)                          | [🔎 Click Here](https://github.com/kishorgehlot10/AtliQ-Sales_Analytics/blob/main/Top%202%20Markets%20in%20every%20Region%20by%20their%20Gross%20Sales%20%20in%20FY%3D2021.sql) |
 | 11 | 🔝 Top 5 Market-Customer Product Performers                                         | [🔎 Click Here](https://github.com/kishorgehlot10/AtliQ-Sales_Analytics/blob/main/Top%205%20%20Market%20Customer%20Products.sql) |
 
-> 📁 All `.sql` files are located in the [`queries`](./queries/) folder.
 
 ---
 
-## ⚙️ Tools Used
+## 💡 Key Business Insights
 
-- **MySQL 8.0**
-- **MySQL Workbench**
-- **Git & GitHub**
-- **SQL CTEs, Views, Stored Procedures**
+📌 Based on the analysis, the following insights were derived:
 
----
-
-## 💡 Sample Business Insight
-
-> 🧾 “Customers’ forecast accuracy dropped by 8.4% from FY 2020 to FY 2021, especially in emerging markets. This indicates the need to re-align the forecasting model or improve communication between the sales and forecasting teams.”
+- 📉 Forecast accuracy dropped significantly for some customers between 2020 and 2021.
+- 🏆 Top markets like India and the USA dominate over 60% of net sales in FY 2021.
+- 💼 Market badge logic helps in classifying focus markets (Gold if sold quantity > 5M).
+- 🛒 Croma India consistently ranks among the top contributors by gross and net sales.
+- 🌍 Region-wise analysis reveals top-performing markets for resource allocation.
 
 ---
 
-## 🚀 How to Use
+🙋‍♂️ About Me
+I'm a passionate data analyst skilled in SQL, Excel, Power BI, and business storytelling.
+Connect with me on LinkedIn (https://www.linkedin.com/in/kishorkumargehlot/)| GitHub(https://github.com/kishorgehlot10)
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/atliq-sales-analysis-sql.git
-   cd atliq-sales-analysis-sql
+⭐ If you found this project useful, feel free to give it a ⭐ star and share your thoughts!
+
+
+
+
+
+
+
+
+
